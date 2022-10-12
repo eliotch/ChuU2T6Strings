@@ -35,6 +35,10 @@ public class Main {
         System.out.println("str8 = " + str8);
         System.out.println("str9 = " + str9);
         System.out.println("str10 = " + str10);
-        
+        Student student = new Student("Abby", "Smith", 2023);
+        student.addTestScore(95);
+        student.addTestScore(98);
+        System.out.println(student.getStudentInfo());
+
     }
 }
